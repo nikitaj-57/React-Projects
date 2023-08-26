@@ -4,6 +4,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillInstagram,
+  AiFillGithub,
 } from "react-icons/ai";
 import deved from "../public/dev-ed-wave.png";
 import nikita from "../public/nikita.jpeg";
@@ -32,7 +33,7 @@ export default function Home() {
             <li>
               <a
                 className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                href="#"
+                href="https://drive.google.com/file/d/1BAUUQWWC-C1OGlRZX0x9uWqTJ_2vZHOo/view?usp=sharing"
               >
                 Resume
               </a>
@@ -43,14 +44,13 @@ export default function Home() {
         <div className="text-center p-10 lg:flex lg:justify-between">
           <div className="lg:mt-10">
             <h2 className=" text-5xl py-2 text-teal-500 font-medium md:text-6xl">
-              Nikita Jit
+              NIKITA JIT
             </h2>
-            <h3 className=" text-2xl py-2 md:text-3xl">
-              Full-Stack Developer.
-            </h3>
+            <h3 className=" text-2xl py-2 md:text-3xl">FRONTEND DEVELOPER</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and lets get cracking!!
+              Software Developer with 2 Years of Front-End Expertise, Crafting
+              Web Experiences with React JS, Redux, and TypeScript. Let's Build
+              Something Extraordinary!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 lg:py-10">
               <a href="#">
@@ -59,8 +59,9 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/nikita-jit-5a1477163/">
                 <AiFillLinkedin />
               </a>
-
-              <AiFillInstagram />
+              <a href="https://github.com/nikitaj-57">
+                <AiFillGithub />
+              </a>
             </div>
           </div>
 
